@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-size: 100%;
+    box-shadow: rgba(100, 100, 100, 0.5) 5px 10px 3px;
+    animation: changeImg 20s infinite;
+    background-repeat: no-repeat;
+}
+
+
+.imageslider {
+   
+    box-shadow: rgba(100, 100, 100, 0.5) 5px 10px 3px;
+    animation: changeImg 20s infinite;
+    animation: ease-in;
+  }
+  
+  @keyframes changeImg {
+    15% {
+      background-image: url("Image/nature1.jpg");
+    }
+    20% {
+      background-image: url("Image/nature2.webp");
+    }
+    40% {
+      background-image: url("image/nature3_files/nature-3082832_640.jpg");
+    }
+    60% {
+      background-image: url("image/nature4.jpg");
+    }
+    80% {
+      background-image: url("image/nature3_files/forest-8592899_640.jpg");
+    }
+    100% {
+      background-image: url("image/nature.webp");
+    }
+  }
+
